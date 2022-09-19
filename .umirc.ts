@@ -6,13 +6,13 @@ export default defineConfig({
   logo: 'http://scrmtest.changan.com.cn/app-b/assets/13a418433765d8199a99.png',
   outputPath: 'docs-dist',
   mode: 'site',
-  mfsu: {
-    development: {
-      output: './.mfsu',
-    },
-    production: {
-      output: '.mfsu-production',
-    },
-  },
+  // mfsu: {
+  //   development: {
+  //     output: './.mfsu',
+  //   },
+  //   production: {
+  //     output: '.mfsu-production',
+  //   },
+  // },
   // more config: https://d.umijs.org/config
 });
