@@ -48,7 +48,7 @@ export type ButtonProps = {
    */
   shape?: 'default' | 'rounded' | 'rectangular';
   /**
-   * @ignore
+   * children
    */
   children?: React.ReactNode;
 };
