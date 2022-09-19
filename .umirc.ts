@@ -15,4 +15,7 @@ export default defineConfig({
   //   },
   // },
   // more config: https://d.umijs.org/config
+  base: '/components-doc',
+  publicPath: '/components-doc/',
+  exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
 });
